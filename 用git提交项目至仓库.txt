@@ -1,0 +1,14 @@
+https://www.cnblogs.com/zyfenblog/p/11170493.html
+3.5、进入本地要提交项目文件的的所在位置右键点击打开Git Bash Here 或者在当前命令窗口  执行  cd F:\test  进入目录。
+
+ 然后依次执行
+
+　1、git init   
+
+    2、git add .
+
+    3、git commit -m "提交描述"
+
+    4、git remote add origin https://github.com/MyJoanna/test.git   （这里的 https://github.com/MyJoanna/test.git 是你的仓库地址）
+（如果有readme文档，还要做一步git pull --rebase origin master（https://cloud.tencent.com/developer/article/2145265））
+    5、git push -u origin master 
